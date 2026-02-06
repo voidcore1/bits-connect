@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;700&display=swap");
+
+:root {
+  --background: hsl(225, 15%, 6%);
+  --foreground: hsl(210, 40%, 98%);
+  --card: hsl(225, 12%, 10%);
+  --primary: hsl(351, 71%, 38%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(225, 10%, 16%);
+  --muted: hsl(225, 8%, 22%);
+  --muted-foreground: hsl(215, 20%, 65%);
+  --accent: hsl(47, 95%, 48%);
+  --accent-foreground: hsl(225, 15%, 6%);
+  --border: hsl(225, 10%, 18%);
+  --font-sans: "DM Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  border-color: var(--border);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(135deg, hsl(351, 71%, 48%), hsl(47, 95%, 52%));
+}
