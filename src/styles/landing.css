@@ -1,10 +1,8 @@
-/* Page container */
 .page-container {
   min-height: 100vh;
   background-color: var(--background);
 }
 
-/* Hero Section */
 .hero-section {
   position: relative;
   min-height: 100vh;
@@ -131,7 +129,6 @@
   color: var(--muted-foreground);
 }
 
-/* Value Cards */
 .value-cards {
   position: relative;
   padding: 6rem 1.5rem;
@@ -230,7 +227,6 @@
   margin: 0;
 }
 
-/* Footer */
 .footer {
   border-top: 1px solid var(--border);
   padding: 3rem 1.5rem;

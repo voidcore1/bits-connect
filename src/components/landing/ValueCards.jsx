@@ -48,20 +48,20 @@ const ValueCards = () => {
           {cards.map((card, index) => {
             const Icon = card.icon;
             return (
-            <motion.div
-              key={card.title}
-              className={`value-card ${card.accent === "accent" ? "value-card--accent" : ""}`}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.15 }}
-            >
-              <div className="value-card__icon-wrapper">
-                <Icon className="value-card__icon" />
-              </div>
-              <h3 className="value-card__title">{card.title}</h3>
-              <p className="value-card__description">{card.description}</p>
-            </motion.div>
+              <motion.div
+                key={card.title}
+                className={`value-card ${card.accent === "accent" ? "value-card--accent" : ""}`}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: index * 0.15 }}
+              >
+                <div className="value-card__icon-wrapper">
+                  <Icon className="value-card__icon" />
+                </div>
+                <h3 className="value-card__title">{card.title}</h3>
+                <p className="value-card__description">{card.description}</p>
+              </motion.div>
             );
           })}
         </div>

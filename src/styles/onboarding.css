@@ -1,4 +1,3 @@
-/* Onboarding Page */
 .onboarding {
   min-height: 100vh;
   background-color: var(--background);
@@ -237,7 +236,6 @@
   height: 1rem;
 }
 
-/* Progress Bar */
 .progress-bar {
   width: 100%;
   margin-bottom: 2.5rem;
@@ -274,7 +272,6 @@
   transition: width 0.5s ease-out;
 }
 
-/* Tag Input */
 .tag-input {
   display: flex;
   flex-direction: column;
